@@ -6,14 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="afavicon-16x16.png">
     <link rel="manifest" href="site.webmanifest">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="proprieties.css">
     <link rel="stylesheet" href="KeyFrames.css">
-    <title>Portfólio Pessoal</title>
+    <title>Portfólio</title>
 </head>
 <body>
+    
     <div class="container">
 
         <div class="hamburguer" id="Close-menu">
@@ -22,16 +23,19 @@
             <div class="line" id="line3"></div>
             <span>Fechar</span>
         </div>
+
         <header>
             <div class="img-wrapper">
                 <img src="backgroundimg.jpg" alt="">
             </div>
             <div class="banner">    
-                <h1 class="title-style">Portifólio Pessoal</h1>  
+                <h1 class="title-style">Portifólio</h1>  
                 <p>Vitor Campos</p>
                 <button class="ButtonCustom" id="button-banner"><a href="#sobremim">Saiba mais</a></button>
-            </div>
+            </div> 
+
         </header>
+
         <aside class="sidebar">
             <nav>
                 <ul class="menu">
@@ -45,12 +49,8 @@
                 </ul>
             </nav>
             <div class="social-media">
-                <a id="github_img" href="https://github.com/VitorCamposAds">
-                    <img class="github_img" src="github.png" alt="Logotipo do GitHub">
-                </a>
-                <a id="github_img" href="https://www.linkedin.com/in/vitor-campos-tech">
-                    <img class="github_img" src="linkedin_hamburguer.png" alt="Logotipo do LinkedIn"> 
-                </a>
+                <a id="social-1" href="https://github.com/VitorCamposAds"><i class="fab fa-github"></i></a>
+                <a id="social-3" href="https://www.linkedin.com/in/vitor-campos-tech"><i class="fab fa-linkedin-in"></i></a>
             </div>
         </aside>
         <section class="secao-sobremim">
@@ -73,8 +73,8 @@
                 </div>
             </div>
         </section>
-        <section class="sessao-conhecimentos">
-            <div class="sessao-header" id="conhecimentos">
+        <section class="sessao-conhecimentos" >
+            <div class="sessao-header"id="conhecimentos">
                 <h1 class="title-style">Conhecimentos</h1>
             </div>
             <div class="conhecimentos">
@@ -90,7 +90,7 @@
                 <div class="conhecimento" data-anime="right">
                     <div class="conhecimento-header">
                         <i class="fab fa-css3-alt"></i>
-                        <h3>CSS</h3>
+                        <h3>Css</h3>
                     </div>
                     <div class="conhecimento-text">
                         <p>CSS foi meu primeiro mergulho no mundo do design. Graças à estilização, aprendi a lidar melhor com webpages e me encantei também possibilidade ampla da criação visual explorando suas infinitas palhetas.</p>
@@ -107,20 +107,20 @@
                 </div>
                 <div class="conhecimento" data-anime="right">
                     <div class="conhecimento-header">
-                        <i class="fab fa-react"></i>
-                        <h3>React</h3>
+                        <i class="fab fa-java"></i>
+                        <h3>Java</h3>
                     </div>
                     <div class="conhecimento-text">
-                        <p>Explorando o React para construir interfaces ricas e interativas.</p>
+                        <p>Encantei-me com o poder do Java em construir sistemas robustos e escaláveis. Sua versatilidade cativou-me, impulsionando minha paixão pela programação.</p>
                     </div>
                 </div>
                 <div class="conhecimento" data-anime="left">
                     <div class="conhecimento-header">
                         <i class="fab fa-github"></i>
-                        <h3>Git & GitHub</h3>
+                        <h3>Git e Github</h3>
                     </div>
                     <div class="conhecimento-text">
-                        <p>Pilares da colaboração. Com eles, aprendi a versionar e compartilhar código de forma eficiente, ampliando meu alcance na comunidade de desenvolvimento.</p>
+                        <p>Pilares da colaboração. Com eles, aprendi a versionar e compartilhar código de forma eficiente, ampliando assim meu alcance na comunidade de desenvolvimento.</p>
                     </div>
                 </div>
                 <div class="conhecimento" data-anime="right">
@@ -135,9 +135,8 @@
                 <div class="imagemFundo">
                     <i class="fa-solid fa-laptop-code"></i>                
                 </div>
-            </div>
-        </section>        
-        <section class="sessao-projetos" id="projetos">
+        </section>
+        <section class="sessao-projetos" id="projetos" >
             <div class="projetos-header">
                 <h1>Projetos</h1>
             </div>
@@ -148,9 +147,10 @@
                     </div>
                     <div class="background">
                         <div class="card-info">
-                            <h2>Projeto1</h2>
-                            <h3>Spring Boot/Java</h3>
-                            <P>Solução Java SpringBoot para gestão eficiente de estoque: robusta, escalável e intuitiva.</P>
+                            <h2>projeto1</h2>
+                            <h3>Java</h3>
+                            <P>Solução Java SpringBoot para gestão eficiente de estoque: robusta, escalável e intuitiva.. </P>
+                            <button class="ButtonSend">Saiba mais</button>
                         </div>
                     </div>
                 </div>
@@ -160,9 +160,10 @@
                     </div>
                     <div class="background">
                         <div class="card-info">
-                            <h2>Projeto2</h2>
+                            <h2>projeto2</h2>
                             <h3>Machine Learning</h3>
                             <P>Projeto de Machine Learning: CNN para identificação de pneumonia em radiografias pulmonares com alta precisão.</P>
+                            <button class="ButtonSend">Saiba mais</button>
                         </div>
                     </div>
                 </div>
@@ -172,9 +173,10 @@
                     </div>
                     <div class="background">
                         <div class="card-info">
-                            <h2>Projeto3</h2>
+                            <h2>projeto3</h2>
                             <h3>HTML, CSS</h3>
                             <P>Desenvolvimento de Websites com HTML e CSS: Design elegante e funcional para uma presença online impactante.</P>
+                            <button class="ButtonSend">Saiba mais</button>
                         </div>
                     </div>
                 </div>
@@ -184,14 +186,16 @@
                     </div>
                     <div class="background">
                         <div class="card-info">
-                            <h2>Projeto4</h2>
+                            <h2>projeto4</h2>
                             <h3>Python/Django</h3>
                             <P>Desenvolvimento de Sistemas com Django: Soluções Python robustas e escaláveis para atender todas as demandas do seu negócio.</P>
+                            <button class="ButtonSend">Saiba mais</button>
                         </div>
                     </div>
-                </div>           
+                </div>
+                
             </div>
-        </section>        
+        </section>
         <section class="section-contact" id="contato">
             <div class="contact-wrapper" data-anime="up">
                 <div class="contact-left"></div>
@@ -249,10 +253,54 @@
                     </div>    
                 </form>
             </div>
+        </section>
+        
+        <section class="section-budget" id="orcamento">
+            <div class="box"></div>
+            <div class="budget-wrapper">
+                <div class="header-budget" data-anime="left">
+                    <h1>Faça seu orçamento</h1>
+                </div>
+                
+                <form class="form-budget">
+                    
+                    <div class="qtde-page" data-anime="right" >
+                        <label for="qtde">Quantidade de páginas:</label> 
+                        <input type="number" name="qtde" id="qtde" min="1" max="100"> <br/><br/>
+                        <label for="js">Preciso de um script JS:</label>
+                        <input class="check" checked="" type="checkbox" name="js" id="js"> <br/><br/><br/> 
+                    </div>
+                    
+                    
+                    <div class="group-layout" data-anime="up">
+                        <label>Layout</label> 
+                        <div>
+                            <input type="radio" name="layout" id="layout-sim">
+                            <label for="layout-sim">Sim, preciso de um layout</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="layout" id="layout-nao">
+                            <label for="layout-não">Não preciso de um layout</label>
+                        </div><br/>
+                        
+                        <div>
+                            <label for="prazo">Prazo</label>
+                            <input type="range" name="prazo" id="prazo" min="1" max="10">
+                        </div>
+                        
+                        <div class="btn">
+                            <button type="submit" id="envio-form-orc" class="ButtonCustom">enviar</button>
+                        </div>
+                        
+                        <label id="preco"> R$ 0,00</label>
+                        
+                    </div>
+                     
+                </form>
         </section> 
         <footer>
             <p>OBRIGADO PELA VISITA</p>
-        </footer>                                     
+        </footer>       
     </div>
     <script src="./script.js"></script>
 </body>
